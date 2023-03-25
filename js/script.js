@@ -46,6 +46,8 @@ btnSim.addEventListener("click", (e) => {
     btnNao.style.display = 'none'
     pergunta.style.display = 'none'
     img.style.marginBottom = '0px'
+    img.style.marginTop = '-90px'
+    title.style.marginTop = "-50px"
 })
 
 const txt = document.querySelector('.text');
@@ -54,6 +56,7 @@ const overflow = document.querySelector('.overflow');
 const button = document.querySelector('.toggle');
 
 button.addEventListener("click", initToggle);
+const title = document.querySelector('.title');
 
 function initToggle(e) {
     txt.style.maxHeight = 
@@ -76,5 +79,4 @@ function initToggle(e) {
 
         button.style.display = 'none'
         
-    img.style.marginTop = "-30px"
 }

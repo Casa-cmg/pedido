@@ -171,7 +171,8 @@ body {
 .container__response h1 {
   font-size: 1.5em;
   margin-bottom: 5%;
-  
+  margin-top: 0px;
+  transition: margin 1s;
 }
 
 .container__response .text {
